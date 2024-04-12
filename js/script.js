@@ -1,0 +1,1 @@
+function resize(){const e=window.innerWidth/16-2,n=Math.floor(e/18);document.body.style.setProperty("--meme-w",e/n-2+"rem")}window.addEventListener("load",(function(){resize(),window.addEventListener("resize",resize)}));
